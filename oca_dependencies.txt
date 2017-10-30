@@ -5,3 +5,4 @@ account-closing
 server-tools
 manufacture
 bank-statement-reconcile
+account-invoicing
