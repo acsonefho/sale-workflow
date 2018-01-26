@@ -4,4 +4,5 @@ stock-logistics-transport
 account-closing
 server-tools
 manufacture
+bank-statement-reconcile
 account-invoicing
