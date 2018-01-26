@@ -53,5 +53,4 @@ class TestAutomaticWorkflowJob(TestAutomaticWorkflowBase):
         self.assertTrue(sale.invoice_ids)
         invoice = sale.invoice_ids
         self.assertEqual(invoice.state, 'paid')
-        self.assertEqual(invoice.payment_ids.transaction_id,
-                         sale.transaction_id)
+        self.assertEqual(invoice.transaction_id, sale.transaction_id)
